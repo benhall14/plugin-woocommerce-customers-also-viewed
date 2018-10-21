@@ -98,6 +98,7 @@ class ConobeWoocommerceAlsoViewed
         if (isset($options['products_per_page'])) {
             $this->products_per_page = (int) $options['products_per_page'];
         }
+       
         if (isset($options['h2_title'])) {
             $this->h2_title = $options['h2_title'];
         }
