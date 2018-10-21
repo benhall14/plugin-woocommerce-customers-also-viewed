@@ -1,0 +1,85 @@
+#conobe form {
+    max-width: 800px;
+    margin: auto;
+}
+
+#conobe label {
+    display: block;
+    border-bottom: 1px solid #eee;
+    margin: 40px 0;
+    padding: 25px;
+    background: #fff;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+#conobe label > span {
+    font-size: 20px;
+    position: absolute;
+    top: -22px;
+    background: #23282d;
+    color: #fff;
+    padding: 10px;
+    left: 0;
+    letter-spacing: 2px;
+}
+
+#conobe input,
+#conobe select,
+#conobe textarea {
+    padding: 10px;
+    font-size: 16px;
+    height: auto;
+    width: 100%;
+}
+
+#conobe button {
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    background: #23282d;
+    color: #fff;
+    border: 2px solid #23282d;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#conobe button:hover {
+    color: #23282d;
+    background: #fff;
+}
+
+#conobe .credits {
+    margin-top: 60px;
+    border: 2px solid #23282d;
+    padding: 25px;
+    font-size: 18px;
+    background: #fff;
+    text-align: center;
+}
+
+#conobe .credits p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#conobe .credits a {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #76B75E;
+}
+
+#conobe .alert {
+    background: #76B75E;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
