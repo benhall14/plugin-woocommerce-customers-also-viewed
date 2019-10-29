@@ -2,8 +2,8 @@
 Contributors: @benhall14
 Tags: woocommerce, product recommendation, related products,
 Donate link: https://paypal.me/benhall14
-Requires at least: 4.7
-Tested up to: 4.9
+Requires at least: 5.2.4
+Tested up to: 5.2.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 

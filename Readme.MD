@@ -10,7 +10,7 @@ For more information, see [https://wordpress.org/plugins/customers-who-viewed-th
 # Requirements
 
 WordPress **(Tested up to 4.9.12)**
-WooCommerce
+WooCommerce **(Tested up to 3.7.1)**
 
 # License
 Copyright (c) 2016-2019 Benjamin Hall, ben@conobe.co.uk 
