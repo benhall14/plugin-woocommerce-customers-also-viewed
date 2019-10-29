@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Customers who viewed this also viewed that - WooCommerce.
  * Description: Show a group of products that were viewed by other customers that also viewed the current product, ie. Customers who viewed this also viewed that.
- * Version: 1.0
+ * Version: 1.1
  * Author: Benjamin Hall
  * Author URI: https://conobe.co.uk
  * Text Domain: woocommerce-extension

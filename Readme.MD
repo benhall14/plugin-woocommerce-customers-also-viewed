@@ -9,7 +9,8 @@ For more information, see [https://wordpress.org/plugins/customers-who-viewed-th
 
 # Requirements
 
-WordPress **(Tested up to 4.9.12)**
+WordPress **(Tested up to 5.2.4)**
+
 WooCommerce **(Tested up to 3.7.1)**
 
 # License
