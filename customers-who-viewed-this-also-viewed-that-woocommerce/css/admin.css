@@ -1,0 +1,159 @@
+#conobe {
+    max-width: 1240px;
+}
+
+#conobe .cav-header {
+    margin: 24px 0 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #c3c4c7;
+}
+
+#conobe .cav-header h1 {
+    margin: 0 0 6px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+#conobe .cav-header p,
+#conobe .description {
+    margin: 0;
+    color: #646970;
+}
+
+#conobe .cav-admin-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(260px, 0.85fr);
+    align-items: start;
+    gap: 20px;
+    max-width: 1080px;
+}
+
+#conobe .cav-settings,
+#conobe .cav-tools {
+    min-width: 0;
+}
+
+#conobe .cav-section {
+    margin: 0 0 18px;
+    padding: 20px 22px;
+    border: 1px solid #c3c4c7;
+    background: #fff;
+}
+
+#conobe .cav-section h2 {
+    margin: 0 0 18px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #dcdcde;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+#conobe .cav-field+.cav-field {
+    margin-top: 18px;
+}
+
+#conobe .cav-field>label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+#conobe .cav-field .description {
+    margin: 0 0 7px;
+}
+
+#conobe .cav-field input[type="text"],
+#conobe .cav-field input[type="number"],
+#conobe .cav-field select {
+    width: 100%;
+    max-width: 520px;
+}
+
+#conobe .cav-field select[multiple] {
+    min-height: 140px;
+}
+
+#conobe .cav-status p+p {
+    margin-top: 10px;
+}
+
+#conobe .cav-status-warning {
+    color: #b32d2e;
+    font-weight: 600;
+}
+
+#conobe .cav-product-diagnostic form {
+    margin-top: 12px;
+}
+
+#conobe .cav-product-diagnostic form>label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+#conobe .cav-product-diagnostic .submit {
+    margin: 0;
+    padding: 0;
+}
+
+#conobe .cav-product-diagnostic .submit .button {
+    min-height: 32px;
+}
+
+#conobe .cav-copy-row {
+    display: flex;
+    gap: 6px;
+}
+
+#conobe .cav-copy-row input {
+    min-width: 0;
+    width: 100%;
+    font-family: Consolas, Monaco, monospace;
+}
+
+#conobe .cav-copy-row button {
+    flex: 0 0 auto;
+}
+
+#conobe .cav-copy-status {
+    min-height: 1.4em;
+    margin: 8px 0 0;
+    color: #2271b1;
+}
+
+#conobe .cav-clear-tracking {
+    border-left: 3px solid #d63638;
+}
+
+#conobe .cav-clear-tracking h2 {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+#conobe .cav-clear-tracking .button {
+    margin-top: 14px;
+    color: #b32d2e;
+    border-color: #d63638;
+}
+
+#conobe .cav-save-row {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 28px;
+}
+
+#conobe .cav-save-row .button {
+    min-height: 36px;
+    padding: 0 18px;
+}
+
+@media screen and (max-width: 782px) {
+    #conobe .cav-admin-layout {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    #conobe .cav-section {
+        padding: 16px;
+    }
+}

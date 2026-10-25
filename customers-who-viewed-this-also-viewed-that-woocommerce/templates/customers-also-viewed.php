@@ -1,5 +1,9 @@
 <?php
 
+if (!defined('ABSPATH')) {
+    exit;
+}
+
 global $product;
 
 if (empty($product) || !$product->is_visible()) {

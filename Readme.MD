@@ -1,4 +1,4 @@
-# WooCommerce Customers Also Viewed
+# Customers Also Viewed for WooCommerce
 
 A simple plugin built for WordPress that allows the website owner to integrate a section showing products that have been viewed by other users that have viewed the current product. 
 
@@ -9,12 +9,14 @@ For more information, see [https://wordpress.org/plugins/customers-who-viewed-th
 
 # Requirements
 
-WordPress **(Tested up to 5.2.4)**
+WordPress **6.2 or newer**
 
-WooCommerce **(Tested up to 3.7.1)**
+WooCommerce **3.7.1 or newer**. Automatic classic-hook placement depends on the active theme; block themes can use the dynamic **Customers Also Viewed** block.
+
+Tracking data is migrated to an indexed table in background batches. The settings page includes category/product exclusions, minimum co-view thresholds, stock handling, retention, optional statistics-consent gating, and tracking diagnostics.
 
 # License
-Copyright (c) 2016-2019 Benjamin Hall, ben@conobe.co.uk 
+Copyright (c) 2016-2026 Benjamin Hall, ben@conobe.co.uk 
 https://conobe.co.uk
 
 Licensed under the GNU license
